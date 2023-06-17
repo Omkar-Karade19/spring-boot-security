@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+
 @Entity
 @Data
 @AllArgsConstructor
@@ -20,5 +20,4 @@ public class UserInfo {
     private String password;
     private String email;
     private String roles;
-
 }
