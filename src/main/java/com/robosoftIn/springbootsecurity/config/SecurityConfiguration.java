@@ -51,7 +51,6 @@ public class SecurityConfiguration {
                 .httpBasic()
                 .and()
                 .build();
-
     }
 
     @Bean
@@ -66,4 +65,5 @@ public class SecurityConfiguration {
         authenticationProvider.setPasswordEncoder(passwordEncoder());
         return authenticationProvider;
     }
+
 }
